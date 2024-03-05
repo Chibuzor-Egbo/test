@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-color: bisque;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.text-area{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-area h1{
+    margin-bottom: 1rem;
+    max-width: 20rem;
+    text-align: center;
+}
+
+.text-area input{
+    height: 3rem;
+    width: 20rem;
+    font-size: 1.5rem;
+    padding-left: 0.2rem;
+    display: block;
+}
+
+.text-area button{
+    width: 20rem;
+    margin-top: 0.8rem;
+    height: 2rem;
+}
